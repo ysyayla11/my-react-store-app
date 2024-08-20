@@ -30,8 +30,8 @@ nav ul li a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 15%;
+  margin-left: 15%;
   margin-bottom: 16px;
 }
 
@@ -43,4 +43,12 @@ img {
   margin: 16px;
   border-radius: 1%;
   filter: grayscale(100%);
+}
+
+/* mobile styling*/
+@media (max-width: 768px) {
+  .Container {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
 }
