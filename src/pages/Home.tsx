@@ -1,6 +1,3 @@
-// Home page
-import "./Home.css";
-
 const Home: React.FC = () => {
   return (
     <div className="Container">
