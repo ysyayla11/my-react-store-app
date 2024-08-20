@@ -1,9 +1,9 @@
 //Product page
 const Products: React.FC = () => {
   return (
-    <div>
+    <div className="Container">
       <h1>Products</h1>
-      <p>Welcome to the products page</p>
+      <h2>Enjoy the quality products chosen for you!</h2>
     </div>
   );
 };
