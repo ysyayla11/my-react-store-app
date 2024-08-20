@@ -18,7 +18,7 @@ const Products: React.FC = () => {
   const [totalProducts, setTotalProducts] = useState<number>(0);
   const [loading, setLoading] = useState<boolean>(true);
   const [imagesLoaded, setImagesLoaded] = useState<boolean>(false);
-  const productsPerPage = 9;
+  const productsPerPage = 16;
   const currentPage = parseInt(page || "1", 10);
 
   //Prevent the late loading images to break the grid layout
