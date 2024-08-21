@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/my-react-store-app">Home</Link>
         </li>
         <li>
           <Link to="/products">Products</Link>
