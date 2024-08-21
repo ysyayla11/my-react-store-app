@@ -9,7 +9,7 @@ const App: React.FC = () => {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/my-react-store-app/" element={<Home />} />
         <Route path="/products/:page" element={<Products />} />
         <Route path="/products" element={<Products />} />
       </Routes>
